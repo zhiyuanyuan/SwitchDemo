@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,4 +13,15 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"/>
 
-</android.support.constraint.ConstraintLayout>
+   <Switch
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:showText="true"
+       android:switchTextAppearance="@style/SwitchTheme"
+       android:textOff="OFF"
+       android:textOn="ON"
+       android:thumb="@drawable/switch_rectangle_thumb_selector"
+       android:track="@drawable/switch_rectangle_track" />
+
+</LinearLayout>
